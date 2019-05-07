@@ -44,28 +44,6 @@ h1, h2, h3, h4, h5 {
     font-family: var(--title-font);
 }
 
-#slide {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-
-    text-align: left;
-
-    -webkit-overflow-scrolling: touch;
-
-    max-width: 100rem;
-}
-
-#slide ul {
-    text-align: left;
-    margin-left: 32px;
-}
-
 a {
     color: var(--text);
 
@@ -74,11 +52,14 @@ a {
 
 blockquote {
     font-size: 120%;
-    font-weight: bold;
+    /*font-weight: bold;*/
 
     width: 50vw;
 
     text-align: left;
+
+    border-left: 8px solid #a2a2a2;
+    padding-left: 1rem;
 }
 
 @media (max-width: 900px) {
@@ -110,7 +91,7 @@ cite::before {
 }
 
 pre {
-    font-size: 70%;
+    font-size: 90%;
 
     display: block;
     overflow-x: scroll;
@@ -123,12 +104,11 @@ pre {
 
     background-color: #eee;
     padding: 1rem;
-    /*min-width: 30rem;*/
+    max-width: 90vw;
 }
 
 code {
     font-family: var(--pre-font), menlo, monospace;
-    font-size: 90%;
     background-color: rgba(255, 154, 181, 0.27);
 }
 
@@ -189,7 +169,32 @@ header span {
     color: var(--text);
 }
 
-
 video {
-    max-width: 100vw;
+    max-width: 98vw;
+}
+
+img {
+    min-width: 100%;
+}
+
+#slide {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    min-height: 100vh;
+    padding: 1rem 0;
+
+    text-align: left;
+
+    -webkit-overflow-scrolling: touch;
+
+    max-width: 100rem;
+}
+
+#slide ul {
+    text-align: left;
+    margin-left: 32px;
 }
