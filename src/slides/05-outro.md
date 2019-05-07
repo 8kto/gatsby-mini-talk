@@ -9,6 +9,7 @@
 
 * [Gallery of starters available](https://www.gatsbyjs.org/starters/?v=2) 
 * [Gatsby 2.0 starter](https://github.com/fabien0102/gatsby-starter)
+* [Presentations starter](https://github.com/fabe/gatsby-starter-deck) (which I used to build this presentation)
 
 ---
 ## The short way

@@ -6,12 +6,11 @@
 Install `gatsby-plugin-typescript` and some optional packages (`typescript` is required)
 
 ```bash
-# Basic TS support
+# Basic support
 yarn add typescript gatsby-plugin-typescript
 
-# Advanced TS support
-yarn add gatsby-plugin-typescript gatsby-plugin-tslint
-yarn add --dev typescript tslint tslint-loader
+# Additional tools
+yarn add --dev gatsby-plugin-tslint tslint tslint-loader
 ```
 
 ---
