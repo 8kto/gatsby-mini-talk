@@ -30,7 +30,7 @@ Your browser does not support the video tag.
 
 ---
 # Tip 
-## Rename all *.js files to *.tsx
+## Rename all `*.js` files to `*.tsx`
 ```bash
 find src/ -name "*.js" -exec rename 's/.js/.tsx/' {} \;
 ```
