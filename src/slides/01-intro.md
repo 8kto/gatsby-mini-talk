@@ -14,7 +14,9 @@
 
 ![Increase awesomeness](./babushka-meme-2.png)
 
---- 
-# How to make your Babushka proud of you?
 
-## Let's start!
+---
+# How to make your Babushka proud of you?
+* Enable **TypeScript**
+* **SASS** support
+* Add **Storybook** (must have for complex UIs or designs)
