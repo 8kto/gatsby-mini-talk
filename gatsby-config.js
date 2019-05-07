@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     name: `Igor Ivlev`,
-    title: `Gatsby Mini Talk`,
+    title: `Adding Awesomeness — Gatsby Mini Talk`,
     date: `May 7, 2019`,
   },
   plugins: [
@@ -32,7 +32,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    // `gatsby-transformer-sharp`,
+    // `gatsby-plugin-sharp`,
   ],
 };

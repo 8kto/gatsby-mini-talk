@@ -17,7 +17,7 @@ const Header = ({ name, title, date }) => (
 );
 
 class TemplateWrapper extends Component {
-  NEXT = [13, 32, 39];
+  NEXT = [13, 39];
   PREV = 37;
 
   swipeLeft = () => {
