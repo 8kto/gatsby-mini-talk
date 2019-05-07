@@ -4,6 +4,10 @@
     --accent: #3178cd;
     --text: black;
     --base: 1.5rem;
+
+    --text-font: 'Roboto', sans-serif;
+    --pre-font: 'Roboto Mono', monospace;
+    --title-font: 'Roboto Slab', serif;
 }
 
 @media (max-width: 600px) {
@@ -18,8 +22,7 @@
 
 body,
 html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-family: var(--text-font), Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: var(--base);
     -webkit-font-smoothing: antialiased;
     font-feature-settings: 'calt', 'liga', 'hist', 'onum', 'pnum';
@@ -38,6 +41,7 @@ html {
 h1, h2, h3, h4, h5 {
     text-align: center;
     margin-bottom: 4rem;
+    font-family: var(--title-font);
 }
 
 #slide {
@@ -123,8 +127,13 @@ pre {
 }
 
 code {
-    font-family: menlo, monospace;
+    font-family: var(--pre-font), menlo, monospace;
     font-size: 90%;
+    background-color: rgba(255, 154, 181, 0.27);
+}
+
+pre code {
+    background-color: transparent;
 }
 
 a:hover {

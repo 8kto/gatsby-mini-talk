@@ -58,6 +58,9 @@ class TemplateWrapper extends Component {
 
     return (
       <div>
+        <style>
+          @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab');
+        </style>
         <Helmet
           title={`${site.siteMetadata.title} — ${site.siteMetadata.name}`}
         />
