@@ -1,25 +1,20 @@
-# Gatsby Deck
+# Increase awesomeness
 
-Create presentations using Gatsby & React.
+![Increase awesomeness](./saltbae.png)
 
----
-
-> Inscrutable icons litter the face of the devices even though the research
-> community has long demonstrated that people cannot remember the meaning of
-> more than a small number of icons […] Who can remember what each icon
-> means? Not me.
-> <cite>Don Norman</cite>
+### Enhancing a basic Gatsby project
 
 ---
+# How to make your Babushka proud of you?
 
-# 🤫
+![Increase awesomeness](./babushka-meme-1.png)
 
----
+--- 
+# How to make your Babushka proud of you?
 
-## Slides are written in Markdown!
+![Increase awesomeness](./babushka-meme-2.png)
 
-Here's the source of the first slide:
+--- 
+# How to make your Babushka proud of you?
 
-    # Gatsby Deck
-
-    Create presentations using Gatsby & React.
+## Let's start!
