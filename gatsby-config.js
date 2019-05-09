@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-mini-talk",
   siteMetadata: {
     name: `Igor Ivlev`,
     title: `Adding Awesomeness — Gatsby Mini Talk`,
