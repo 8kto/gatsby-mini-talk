@@ -16,14 +16,14 @@ yarn add --dev gatsby-plugin-tslint tslint tslint-loader
 ---
 ## Adding TypeScript: create first ts-component
 <video controls autoplay>
-  <source src="../videos/R-gatsby-talk-10-add-ts.mkv" type="video/mp4">
+  <source src="R-gatsby-talk-10-add-ts.mkv" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 ---
 ## Adding TypeScript: install packages
 <video controls autoplay>
-  <source src="../videos/R-gatsby-talk-11-install-packages.mkv" type="video/mp4">
+  <source src="R-gatsby-talk-11-install-packages.mkv" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 

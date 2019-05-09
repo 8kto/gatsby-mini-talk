@@ -40,7 +40,7 @@ sb init
 ---
 ## Adding Storybook
 <video controls autoplay>
-  <source src="../videos/R-gatsby-talk-12-storybook.mkv" type="video/mp4">
+  <source src="R-gatsby-talk-12-storybook.mkv" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
