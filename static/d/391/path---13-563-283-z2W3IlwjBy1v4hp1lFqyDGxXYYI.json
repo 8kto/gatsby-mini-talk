@@ -1,0 +1,1 @@
+{"data":{"slide":{"html":"\n<h1>Tip</h1>\n<h2>Rename all <code>*.js</code> files to <code>*.tsx</code></h2>\n<pre><code class=\"language-bash\">find src/ -name \"*.js\" -exec rename 's/.js/.tsx/' {} \\;\n</code></pre>\n","index":13}},"pageContext":{"index":13,"absolutePath":"/home/igor/devel/gatsby-mini-talk/src/slides#13"}}
